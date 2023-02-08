@@ -112,4 +112,49 @@
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent" />
 
+ <RadioGroup
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="20dp"
+     android:orientation="horizontal"
+     android:id="@+id/rgMaritalStatus">
+
+     <RadioButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/rbMarried"
+         android:text="Married"
+         android:checked="true"
+         android:layout_marginLeft="15dp"/>
+
+     <RadioButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/rbSingle"
+         android:text="Single"
+         android:layout_marginLeft="15dp"/>
+     <RadioButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/rbInRel"
+         android:text="In a Relationship"
+         android:layout_marginLeft="15dp"/>
+
+ </RadioGroup>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573"
+        android:visibility="visible"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
